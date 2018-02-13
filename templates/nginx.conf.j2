@@ -36,6 +36,7 @@ http {
 {% endif %}
 
     server_names_hash_bucket_size {{nginx_server_names_hash_bucket_size}};
+    types_hash_max_size {{nginx_types_hash_max_size}};
 
     access_log {{nginx_access_log}};
     error_log {{nginx_error_log}};

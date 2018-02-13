@@ -17,6 +17,7 @@ nginx_keepalive_requests: 100       #
 nginx_gzip: yes                     # -------------------
 nginx_open_file_cache: yes
 nginx_server_names_hash_bucket_size: 128
+nginx_types_hash_max_size: 2048
 nginx_access_log: /var/log/nginx/access.log
 nginx_error_log: /var/log/nginx/error.log
 nginx_http_options:                 # Additional http options (each line will be added as is)
